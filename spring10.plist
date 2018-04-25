@@ -2,31 +2,15 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>items</key>
+    <key>application-identifier</key>
+    <string>PREFIX.yourappBundleID</string>
+    <key>aps-environment</key>
+    <string>production</string>
+    <key>get-task-allow</key>
+    <false/>
+    <key>keychain-access-groups</key>
     <array>
-        <dict>
-            <key>assets</key>
-            <array>
-                <dict>
-                    <key>kind</key>
-                    <string>software-package</string>
-                    <key>url</key>
-                    <string>https://github.com/DevelopApple/Jailbreak-Non-Pc/blob/master/images/Spring.ipa?raw=true</string>
-                </dict>
-            </array>
-            <key>metadata</key>
-            <dict>
-                <key>bundle-identifier</key>
-                <string>com.coolstar.electra</string>
-                <key>bundle-version</key>
-                <string>1.0</string>
-                <key>kind</key>
-                <string>software</string>
-                <key>title</key>
-                <string>Spring10
-</string>
-            </dict>
-        </dict>
+        <string>PREFIX.yourappBundleID</string>
     </array>
 </dict>
 </plist>
